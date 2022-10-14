@@ -51,6 +51,7 @@ function init() {
                 type: 'list',
                 name: 'license',
                 message: questions[6],
+                choices: ['GNU AGPLv3', '', '', '', '', '', '', ''],
             },
             {
                 type: 'input',
