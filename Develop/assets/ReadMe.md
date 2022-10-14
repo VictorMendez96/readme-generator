@@ -1,6 +1,4 @@
-# Test 
-
-  ![badge](https://shields.io/badge/license-GNU LGPLv3-blue)
+# Test ![badge](https://shields.io/badge/license-GNUGPLv3-blue)
 
   ## Table of Contents
   - [Description](#Description)
@@ -27,9 +25,9 @@
   Test
 
   ## Questions
-  [GitHub](https://github.com/Testhub)
+  [GitHub](https://github.com/Test)
 
   ## License
-    GNU LGPLv3
+    GNU GPLv3
     
 
