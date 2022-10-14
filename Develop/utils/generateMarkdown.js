@@ -2,19 +2,19 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license) {
-    return badge
+    return `![badge](https://shields.io/badge/license-${license}-blue)`
   } else {
-    return ""
+    return ``
   }
-}
+} 
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license) {
-    return link
+    return `- [License](#License)`
   } else {
-    return ""
+    return ``
   }
 }
 
@@ -22,21 +22,23 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license) {
-    return section
+    return `## License
+    ${license}
+    `
   } else {
-    return ""
+    return ``
   }
   
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  renderLicenseBadge(data.license)
-  renderLicenseLink(data.license)
-  renderLicenseSection(data.license)
+  // renderLicenseBadge(data.license)
+  // renderLicenseLink(data.license)
+  // renderLicenseSection(data.license)
   return `# ${data.title}
 
-  ${badge}
+  ${renderLicenseBadge(data.license)}
 
   ## Table of Contents
   - [Description](#Description)
@@ -45,7 +47,7 @@ function generateMarkdown(data) {
   - [Contributing](#Contributing)
   - [Tests](#Tests)
   - [Questions](#Questions)
-  - [License](#License)
+  ${renderLicenseLink(data.license)}
 
   ## Description
   ${data.description}
@@ -65,10 +67,8 @@ function generateMarkdown(data) {
   ## Questions
   [GitHub](https://github.com/${data.github})
 
+  ${renderLicenseSection(data.license)}
 
-
-
-  ## License
 `;
 }
 

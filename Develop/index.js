@@ -66,7 +66,7 @@ function init() {
             },
         ])
         .then(function (response) {
-            const readme = markdown.generateMarkdown(response);
+            let readme = markdown(response);
             writeToFile('./assets/ReadMe.md', readme);
         })
 };
