@@ -3,7 +3,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 // Include js to generate the readme and license badge from responses
-const markdown = require('./utils/generateMarkdown');
+const markdown = require('./utils/generateMarkdown.js');
 
 // TODO: Create an array of questions for user input
 const questions = ["Enter the name of your project:", "Describe your Project:", "How do you install your application?", "How do you use your application?", "How can users contribute to your application?", "How do you test your application?", "Choose your license:", "Enter your Github username:", "Enter your email address:"];
@@ -67,7 +67,7 @@ function init() {
         ])
         .then(function (response) {
             const readme = markdown.generateMarkdown(response);
-            writeToFile('', readme);
+            writeToFile('./assets/ReadMe.md', readme);
         })
 };
 
