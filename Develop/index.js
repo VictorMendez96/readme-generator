@@ -2,7 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-// Include js to generate the license badge
+// Include js to generate the readme and license badge from responses
 const markdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
