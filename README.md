@@ -23,8 +23,10 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 
 ## Application Screenshots
-![]()
-![]()
+![Prompts w/ License]()
+![Readme w/ Badge]()
+![Prompts w/o License]()
+![Readme w/o Badge]()
 
 ## Application Links
 [GitHub](https://github.com/VictorMendez96/readme-generator)
