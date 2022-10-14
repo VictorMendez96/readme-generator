@@ -27,10 +27,7 @@ THEN I am taken to the corresponding section of the README
 ![]()
 
 ## Application Links
-[GitHub]()
+[GitHub](https://github.com/VictorMendez96/readme-generator)
 [Video Walk-through]()
-[]()
-
-https://github.com/VictorMendez96/readme-generator
 
 [How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
