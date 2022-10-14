@@ -34,6 +34,26 @@ function generateMarkdown(data) {
   - [Questions]()
   - [License]()
 
+  ## Description
+
+
+  ## Installation
+
+
+  ## Usage
+
+
+  ## Contributing
+
+
+  ## Tests
+
+
+  ## Questions
+  [GitHub](https://github.com/${data.github})
+
+
+  ## License
 `;
 }
 

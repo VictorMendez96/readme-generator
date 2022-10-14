@@ -56,7 +56,7 @@ function init() {
             },
             {
                 type: 'input',
-                name: 'link',
+                name: 'github',
                 message: questions[7],
             },
             {
