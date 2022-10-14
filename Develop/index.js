@@ -35,32 +35,32 @@ function init() {
                 message: questions[2],
             },
             {
-                type: '',
+                type: 'input',
                 name: '',
                 message: questions[3],
             },
             {
-                type: '',
+                type: 'input',
                 name: '',
                 message: questions[4],
             },
             {
-                type: '',
+                type: 'input',
                 name: '',
                 message: questions[5],
             },
             {
-                type: '',
+                type: 'list',
                 name: '',
                 message: questions[6],
             },
             {
-                type: '',
+                type: 'input',
                 name: '',
                 message: questions[7],
             },
             {
-                type: '',
+                type: 'input',
                 name: '',
                 message: questions[8],
             },
