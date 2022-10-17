@@ -43,7 +43,7 @@ Once you have installed the program. Run a 'node index.js' in your terminal whil
 ![Start](./assets/welcome-page.png)
 ![Prompts](./assets/prompts.png)
 ![Readme Ready](./assets/complete.png)
-![Readme](./README.md)
+![Readme](./assets/sample-readme.png)
 
 ## Application Links
 [GitHub](https://github.com/VictorMendez96/readme-generator)
